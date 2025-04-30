@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.uni-margin {
+  margin-top: 2.25rem;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.headers {
+  color: white;
+}
+
+.paragraph {
+  font-size: 21px;
+  color: gray;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+}
+
+header {
+  padding-top: 3.125rem;
+}
+
+h1 {
+  padding: 0 1.125rem;
+  font-size: 50px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 42px;
+}
+
+.link a {
+  color: aquamarine;
+}
+
+main {
+  padding: 0 1.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  margin-top: 3.125rem;
+  padding: 1.125rem 1rem;
+}
+
+.copy {
+  text-align: right;
+}
+
+/* Mobile friendly / responsive */
+@media screen and (max-width: 550px) {
+  video {
+    width: 300px;
+    height: 550px;
+  }
+}
